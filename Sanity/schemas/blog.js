@@ -1,6 +1,6 @@
 export default {
-  name: "navbar",
-  title: "Navbar",
+  name: "blog",
+  title: "Blog",
   type: "document",
   fields: [
     {
@@ -9,8 +9,13 @@ export default {
       type: "string",
     },
     {
-      name: 'image',
-      title: 'Image',
+      name: "description",
+      title: "Description",
+      type: "string",
+    },
+    {
+      name: 'headerImg',
+      title: 'headerImage',
       type: 'image',
       options: {
           hotspot: true,
